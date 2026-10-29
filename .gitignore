@@ -1,0 +1,6 @@
+/bin/
+/tools/
+*.exe
+.goforge/
+*.test
+coverage.out

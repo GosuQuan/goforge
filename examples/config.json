@@ -1,0 +1,17 @@
+{
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com/v1",
+  "model": "deepseek-chat",
+  "temperature": 0.2,
+  "max_tokens": 0,
+  "embedder": "hashing",
+  "embed_model": "text-embedding-3-small",
+  "vector_store": "memory",
+  "index_file": ".goforge/index.json",
+  "chroma_dir": ".goforge/chroma",
+  "work_dir": ".",
+  "max_steps": 24,
+  "shell_timeout_seconds": 60,
+  "require_approval": false,
+  "checkpoint_dir": ".goforge/checkpoints"
+}
